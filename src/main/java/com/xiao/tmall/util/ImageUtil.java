@@ -18,6 +18,7 @@ import javax.imageio.ImageIO;
 
 public class ImageUtil {
 
+
     public static BufferedImage change2jpg(File f) {
         try {
             Image i = Toolkit.getDefaultToolkit().createImage(f.getAbsolutePath());
